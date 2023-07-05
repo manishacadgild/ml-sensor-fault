@@ -5,6 +5,9 @@ __pycache__/
 
 # C extensions
 *.so
+sensor/
+venv/
+artifact/
 
 # Distribution / packaging
 .Python
@@ -131,7 +134,7 @@ venv.bak/
 # Spyder project settings
 .spyderproject
 .spyproject
-
+.egg-info/
 # Rope project settings
 .ropeproject
 

@@ -1,0 +1,9 @@
+dill==0.3.5.1
+dnspython==2.2.1
+pymongo[srv]==4.2.0
+pandas
+numpy
+scikit-learn
+evidently
+from-root
+-e .

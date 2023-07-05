@@ -13,3 +13,15 @@ Solution Proposed
 In this project, the system in focus is the Air Pressure system (APS) which generates pressurized air that are utilized in various functions in a truck, such as braking and gear changes. The datasets positive class corresponds to component failures for a specific component of the APS system. The negative class corresponds to trucks with failures for components not related to the APS system.
 
 The problem is to reduce the cost due to unnecessary repairs. So it is required to minimize the false predictions.
+
+Step1. Create a conda environment after opening the repository
+``` bash
+conda create -p venv python==3.8 -y
+````
+``` bash
+conda activate venv
+``` 
+``` bash MongoDB URL.
+MONGO_DB_URL="mongodb+srv://mongodb:mongodb@mongodb.n1arurv.mongodb.net/?retryWrites=true&w=majority"
+````
+
