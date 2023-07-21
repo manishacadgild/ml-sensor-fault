@@ -16,7 +16,7 @@ def get_requirements()->List[str]:
 setup(
     name="Sensor",
     license="MIT",
-    version="0.0.5",
+    version="0.0.7",
     description="ML Project.",
     author="Manish Jha",
     packages=find_packages(),

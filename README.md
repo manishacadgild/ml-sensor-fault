@@ -24,4 +24,7 @@ conda activate venv
 ``` bash MongoDB URL.
 MONGO_DB_URL="mongodb+srv://mongodb:mongodb@mongodb.n1arurv.mongodb.net/?retryWrites=true&w=majority"
 ````
+```bash
+pip install ipykernel 
+```
 
