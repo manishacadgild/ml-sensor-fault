@@ -9,7 +9,7 @@ from sensor.constant.training_pipeline import SAVED_MODEL_DIR
 from fastapi import FastAPI
 from sensor.constant.application import APP_HOST, APP_PORT
 from starlette.responses import RedirectResponse
-from uvicorn import run as app_run
+from uvicorn import run 
 from fastapi.responses import Response
 from sensor.ml.model.estimator import ModelResolver,TargetValueMapping
 from sensor.utils.main_utils import load_object
@@ -88,4 +88,5 @@ def main():
 if __name__=="__main__":
     #main()
     # set_env_variable(env_file_path)
-    app_run(app, host=APP_HOST, port=APP_PORT)
+    run(app, host=APP_HOST, port=APP_PORT)
+    #run("main:app", host="127.0.0.1", port=8000, reload=True)
